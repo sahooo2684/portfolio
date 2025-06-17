@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research | Sahil Sachin Kamble</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f4f6;
+      color: #1f2937;
+    }
+
+    header {
+      background: linear-gradient(to right, #4f46e5, #6366f1);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #4f46e5;
+      margin-bottom: 30px;
+    }
+
+    .research-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .research-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .research-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    }
+nav {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+
+  nav a {
+    color: #f9fafb;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    background: #4f46e5;
+    transform: scale(1.05);
+  }
+
+    .research-card h3 {
+      margin-top: 0;
+      color: #1e293b;
+    }
+
+    .research-card p {
+      color: #4b5563;
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .platform {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin-top: 5px;
+    }
+
+    .link-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      background: #4f46e5;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.3s ease;
+    }
+
+    .link-btn:hover {
+      background: #4338ca;
+    }
+
+    footer {
+      background: #1f2937;
+      color: #d1d5db;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sahil Sachin Kamble</h1>
+    <p>Research Projects and Technical Studies</p>
+  </header>
+<nav>
+    <a href="sahoo.html">home</a>
+    <a href="about.html">about</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>My Research Work</h2>
+    <div class="research-list">
+
+      <!-- Research 1 -->
+      <div class="research-card">
+        <h3>Skill Swap</h3>
+        <p>A research study on decentralized knowledge exchange through peer-to-peer skill sharing platforms.</p>
+        <p class="platform">Institution: Independent Study | Status: In Progress</p>
+        <!-- <a class="link-btn" href="link-to-paper.pdf" target="_blank">View Paper</a> -->
+      </div>
+
+      <!-- Research 2 -->
+      <div class="research-card">
+        <h3>Farmer's Market</h3>
+        <p>Examining how digital tools can empower rural farmers by connecting them directly to markets.</p>
+        <p class="platform">Institution: Personal Initiative | Status: Ongoing</p>
+      </div>
+
+      <!-- Research 3 -->
+      <div class="research-card">
+        <h3>Coder Mitra</h3>
+        <p>Designing support systems and mentoring tools for novice programmers in academic settings.</p>
+        <p class="platform">Platform: GitHub | Status: Prototype Completed</p>
+      </div>
+
+      <!-- Research 4 -->
+      <div class="research-card">
+        <h3>Mock Test Generator</h3>
+        <p>Developing an AI-driven tool that can automatically generate mock tests using question banks and logic rules.</p>
+        <p class="platform">Institution: Personal Project | Status: Concept Demonstrated</p>
+      </div>
+
+      <!-- Research 5 -->
+      <div class="research-card">
+        <h3>Capsule</h3>
+        <p>Behavioral study on digital productivity, time tracking, and motivational design in personal apps.</p>
+        <p class="platform">Institution: Self Research | Status: Field Study</p>
+      </div>
+
+      <!-- Research 6 -->
+      <div class="research-card">
+        <h3>CDM (Central Data Manager)</h3>
+        <p>Building and testing a centralized academic data system for educational institutions.</p>
+        <p class="platform">Institution: Academic Demo | Status: Development Complete</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Sahil Sachin Kamble. All rights reserved.
+  </footer>
+
+</body>
+</html>

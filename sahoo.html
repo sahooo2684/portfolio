@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahil Sachin Kamble | Portfolio</title>
+  <style>
+  /* Global Reset & Scroll */
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background: #a5b4fc;
+    color: #fff;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f2f5 0%, #f9fafb 100%);
+    color: #333;
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4f46e5;
+    border-radius: 5px;
+  }
+
+  /* Header */
+  header {
+    background: radial-gradient(circle at top left, #4f46e5, #6366f1);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    clip-path: ellipse(100% 80% at 50% 20%);
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #c4b5fd, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    font-size: 2.2em;
+    color: #111827;
+    border-left: 5px solid #6366f1;
+    padding-left: 12px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  nav {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+
+  nav a {
+    color: #f9fafb;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    background: #4f46e5;
+    transform: scale(1.05);
+  }
+
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 0.6s ease forwards;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.15);
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    width: 120px;
+    height: 120px;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #4f46e5;
+    font-size: 1.5em;
+  }
+
+  a {
+    color: #4f46e5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #3730a3;
+    text-decoration: underline;
+  }
+
+  footer {
+    background: #111827;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9em;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  /* Fade in animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 8px;
+      font-size: 15px;
+    }
+
+    .card {
+      padding: 20px;
+    }
+  }
+</style>
+
+
+</head>
+<body>
+
+  <header>
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; max-width: 800px; margin: auto;">
+    
+    <!-- Profile Image -->
+    <img src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/people19.png" alt="Sahil Sachin Kamble" style="border-radius: 50%; width: 150px; height: 150px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+
+    <!-- Name and Title -->
+    <h1>Sahil Sachin Kamble</h1>
+    <p style="font-size: 1.1rem; color: #e0e7ff; max-width: 600px;">
+      Web Developer • AI Researcher • Graphic Designer • Frontend Developer • UI Designer • Android Developer
+    </p>
+
+    <!-- Summary -->
+    <p style="font-size: 1rem; color: #cbd5e1; max-width: 600px;">
+      Passionate about crafting beautiful, functional user experiences and exploring intelligent solutions. I’ve built 8+ real-world projects, spanning full-stack web, mobile apps, and AI-backed platforms.
+    </p>
+
+    <!-- Resume Button -->
+    <a href="#" download style="
+      display: inline-block;
+      background: #fff;
+      color: #4f46e5;
+      padding: 10px 20px;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    " onmouseover="this.style.background='#4f46e5';this.style.color='#fff'" onmouseout="this.style.background='#fff';this.style.color='#4f46e5'">
+      📄 Download Resume
+    </a>
+
+  </div>
+</header>
+
+
+  <nav>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="research.html">Research</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a web developer with no formal job experience, but I have worked on 8–9 personal and academic projects. I'm passionate about technology, AI research, and learning by doing. I specialize in building full-stack web applications using PHP, CSS, and MySQL.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Recent Projects</h2>
+<a href="skillswap.html" class="project-card-link">
+    <div class="card">
+      <h3>Skill Swap</h3>
+      <p>A skill-sharing platform for peer-to-peer learning.</p>
+      <p><strong>Technologies:</strong> PHP, CSS, MySQL</p>
+    </div>
+</a>
+
+<a href="farmersmarket.html" class="project-card-link">
+    <!-- Placeholder for more projects -->
+    <div class="card">
+      <h3>Farmers Market</h3>
+      <p>Platform to connect local farmers with buyers.</p>
+    </div>
+</a>
+
+<a href="codermitra.html" class="project-card-link">
+    <div class="card">
+      <h3>Coder Mitra</h3>
+      <p>A support platform for beginner coders with mentorship features.</p>
+    </div>
+</a>
+
+<a href="mockgenerator.html" class="project-card-link">
+    <div class="card">
+      <h3>Mock Test Generator</h3>
+      <p>AI-based mock test system for students and aspirants.</p>
+    </div>
+</a>
+
+<a href="capsule.html" class="project-card-link">
+    <div class="card">
+      <h3>Capsule</h3>
+      <p>Tool for content summarization using NLP.</p>
+    </div>
+</a>
+
+<a href="cdm.html" class="project-card-link">
+    <div class="card">
+      <h3>CDM</h3>
+      <p>Context-Driven Modeling system for optimized web applications.</p>
+    </div>
+  </section>
+</a>
+  <section id="research">
+    <h2>Research Work</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Skill Swap:</strong> Exploration of peer-to-peer learning systems.</li>
+        <li><strong>Farmers Market:</strong> Study on digital platforms for agriculture.</li>
+        <li><strong>Coder Mitra:</strong> Analysis of educational support tools.</li>
+        <li><strong>Mock Test Generator:</strong> Use of AI for test creation.</li>
+        <li><strong>Capsule:</strong> NLP application for content summarization.</li>
+        <li><strong>CDM:</strong> Context-aware modeling techniques for dynamic apps.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p><strong>Phone:</strong> <a href="tel:8767394757">8767394757</a></p>
+      <p><strong>Email:</strong> <a href="mailto:patilanant792@gmail.com">patilanant792@gmail.com</a></p>
+      <!-- Add GitHub / LinkedIn when available -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Sahil Sachin Kamble. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+

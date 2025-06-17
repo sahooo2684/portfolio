@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Sahil Sachin Kamble</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+
+    header {
+      background: linear-gradient(to right, #4f46e5, #6366f1);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      gap: 40px;
+    }
+
+    .contact-info, .contact-form, .map {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #4f46e5;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+
+    .contact-info a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: grid;
+      gap: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #4338ca;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 10px;
+    }
+nav {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+
+  nav a {
+    color: #f9fafb;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    background: #4f46e5;
+    transform: scale(1.05);
+  }
+
+    footer {
+      text-align: center;
+      background-color: #1f2937;
+      color: #d1d5db;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+    <p>Let’s connect and collaborate!</p>
+
+  </header>
+<nav>
+    <a href="sahoo.html">home</a>
+<a href="about.html">about</a>
+    <a href="projects.html">Projects</a>
+    <a href="research.html">Research</a>
+    
+  </nav>
+
+  <main>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>My Contact Details</h2>
+      <p><strong>Phone:</strong> <a href="tel:+918767394757">+91 8767394757</a></p>
+      <p><strong>Email:</strong> <a href="mailto:patilanant792@gmail.com">patilanant792@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">github.com/yourprofile</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send Me a Message</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Full Name" required />
+        <input type="email" name="email" placeholder="Your Email Address" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Google Map -->
+    <div class="map">
+      <h2>My Location</h2>
+      <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60306.61649740744!2d73.0668124!3d19.2166676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7956a3a845b23%3A0x27a53c7b6fbc70a2!2sDombivli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1718187660000" 
+  width="100%" 
+  height="350" 
+  style="border:0; border-radius:10px;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Sahil Sachin Kamble. All rights reserved.
+  </footer>
+
+</body>
+</html>

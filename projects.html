@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Sahil Sachin Kamble</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f4f6;
+      color: #1f2937;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #4f46e5;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .project-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 20px;
+    }
+
+    .project-content h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #1f2937;
+    }
+
+    .project-content p {
+      margin-bottom: 8px;
+      color: #4b5563;
+    }
+
+    .tools {
+      font-size: 0.9em;
+      color: #6b7280;
+      margin-top: 10px;
+    }
+nav {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+
+  nav a {
+    color: #f9fafb;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    background: #4f46e5;
+    transform: scale(1.05);
+  }
+
+
+    footer {
+      background: #1f2937;
+      color: #d1d5db;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sahil Sachin Kamble</h1>
+    <p>Explore My Latest Projects</p>
+  </header>
+<nav>
+    <a href="sahoo.html">home</a>
+    <a href="about.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Recent Projects</h2>
+    <div class="projects-grid">
+<a href="skillswap.html" class="project-card-link">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img class="project-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/007e4d207833619.66e419f0abe86.png" alt="Skill Swap" />
+        <div class="project-content">
+          <h3>Skill Swap</h3>
+          <p>A skill-sharing platform that connects learners with mentors to exchange knowledge.</p>
+          <p class="tools">Tools: PHP, CSS, MySQL</p>
+        </div>
+      </div>
+</a>
+
+<a href="farmersmarket.html" class="project-card-link">
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img class="project-image" src="https://th.bing.com/th/id/OIP.SeZJQhyf8oe57AnTBqcSlgHaEK?rs=1&pid=ImgDetMain" alt="Farmers Market" />
+        <div class="project-content">
+          <h3>Farmers Market</h3>
+          <p>An online portal for farmers to list and sell fresh produce directly to consumers.</p>
+          <p class="tools">Tools: HTML, JS, Firebase</p>
+        </div>
+      </div>
+</a>
+
+<a href="codermitra.html" class="project-card-link">
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img class="project-image" src="https://play-lh.googleusercontent.com/egiQxjoS8keIjySImlyJ8GD58Vr5577Kt2AGphQ4-0VpCg7C0E-lKRLSIVSjjVMTEtQ=w526-h296" alt="Coder Mitra" />
+        <div class="project-content">
+          <h3>Coder Mitra</h3>
+          <p>A support platform for beginner coders with forums, tutorials, and mentorship tools.</p>
+          <p class="tools">Tools: Bootstrap, PHP, MySQL</p>
+        </div>
+      </div>
+</a>
+
+<a href="mockgenerator.html" class="project-card-link">
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img class="project-image" src="https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/5088169b-0ecf-407f-a9a1-51887d15e8fd/2134439612/exam-preparation-app-free-mock-tests-live-class-screenshot.png" alt="Mock Test Generator" />
+        <div class="project-content">
+          <h3>Mock Test Generator</h3>
+          <p>Generate online test series and practice papers dynamically with AI logic.</p>
+          <p class="tools">Tools: HTML, JS, Python</p>
+        </div>
+      </div>
+</a>
+
+<a href="capsule.html" class="project-card-link">
+      <!-- Project 5 -->
+      <div class="project-card">
+        <img class="project-image" src="https://i.pinimg.com/originals/7f/96/ea/7f96ea7d39cb9816de095f2d2a7b3fb2.jpg" alt="Capsule" />
+        <div class="project-content">
+          <h3>Capsule</h3>
+          <p>A productivity tracker app to monitor habits, tasks, and time logs.</p>
+          <p class="tools">Tools: Android (Java), SQLite</p>
+        </div>
+      </div>
+</a>
+
+<a href="cdm.html" class="project-card-link">
+      <!-- Project 6 -->
+      <div class="project-card">
+        <img class="project-image" src="https://th.bing.com/th/id/OIP.xFujeTmIBTMB16Ha-fhqmgHaEc?rs=1&pid=ImgDetMain" alt="CDM Project" />
+        <div class="project-content">
+          <h3>CDM (Central Data Manager)</h3>
+          <p>A centralized platform to manage academic and student data efficiently.</p>
+          <p class="tools">Tools: HTML, PHP, MySQL</p>
+        </div>
+      </div>
+</a>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Sahil Sachin Kamble. All rights reserved.
+  </footer>
+
+</body>
+</html>
